@@ -7,11 +7,15 @@
     "start": "nodemon --inspect index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.0.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.6"
   },
   "devDependencies": {
     "jest": "^25.2.7",
     "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1",
     "supertest": "^4.0.2"
   }
 }
